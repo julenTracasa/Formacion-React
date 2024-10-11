@@ -1,32 +1,27 @@
-# `Turborepo` Vite starter
+# Formación Desarrollo `React` Departamento de Justicia
 
-This is an official starter Turborepo.
+Este repositorio se ha creado para la formación de desarrollo en React del departamento de Justicia de Tracasa Instrumental
 
-## Using this example
+## Como descargar
 
-Run the following command:
+Se puede descargar mediante SSH, HTTPSo bien abrir en Visual Studio Code desde el botón <> Code
 
-```sh
-npx create-turbo@latest -e with-vite
-```
+## ¿Qué incluye este repositorio?
 
-## What's inside?
-
-This Turborepo includes the following packages and apps:
+Este repositorio consiste en un monorepo que emplea Turborepo e incluye los siguientes elementos:
 
 ### Apps and Packages
 
-- `docs`: a vanilla [vite](https://vitejs.dev) ts app
-- `web`: another vanilla [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component & utility library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `app-formacion`: aplicación de React con Ts
+- `@repo/ui`: librería de componentes a emplear en el resto de aplicaciones
+- `@repo/eslint-config`: configuraciones de `eslint`
+- `@repo/typescript-config`: configuracion de `tsconfig.json` para el resto de aplicaciones
 
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+Cada app y librería está creada con un 100% de [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
-This Turborepo has some additional tools already setup for you:
+El repositorio emplea las siguientes herramientas:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
