@@ -1,12 +1,12 @@
-import { Header } from "@repo/ui";
 import "./App.css";
 import React from "react";
+import AppRouter from "./app.router";
 
 function App() {
   //TO-Do: Añadir i18n
   return (
     <>
-      <Header centro={<div>{"Prueba"}</div>} />
+      <AppRouter />
     </>
   );
 }
