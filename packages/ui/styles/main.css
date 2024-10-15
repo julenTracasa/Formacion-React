@@ -1,0 +1,37 @@
+:root {
+    --border-radius: 0.25rem;
+    --background-color: white;
+    --primary-color: #627d68;
+    --header-height: 4.25rem;
+    --header-color: white;
+
+    --button-text-color: white;
+    --button-color-default: #475468;
+    --button-color-default-hover: #2f3744;
+    --button-color-default-active: #1f2530;
+    --button-color-default-focus: #475468;
+    --button-color-default-disabled: #808996;
+  
+    --button-color-primary: #337ab7;
+    --button-color-primary-hover: #275c8a;
+    --button-color-primary-active: #1c4f7a;
+    --button-color-primary-focus: #337ab7;
+    --button-color-primary-disabled: #6f98bb;
+    --toolbar-background-color: #ebeaea;
+  }
+
+  html {
+    font-family:
+      'Segoe UI',
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Open Sans',
+      'Helvetica Neue',
+      sans-serif;
+    font-size: 16px;
+  }

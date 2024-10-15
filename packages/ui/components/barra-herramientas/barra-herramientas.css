@@ -1,0 +1,40 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 3rem;
+  border-bottom: 1px solid #ccc;
+  background-color: var(--toolbar-background-color);
+  gap: 1rem;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toolbar-right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.toolbar-left {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.hide-left-on-mobile {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .toolbar {
+    padding: 0 1rem;
+  }
+
+  .hide-left-on-mobile {
+    display: none;
+  }
+}

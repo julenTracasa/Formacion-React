@@ -1,0 +1,6 @@
+.label {
+  color: var(--label-color);
+  font-size: 0.875em;
+  line-height: 1;
+  font-size: 1rem;
+}
