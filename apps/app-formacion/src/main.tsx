@@ -1,4 +1,5 @@
 import React from "react";
+import "./shared/config/i18n";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 
