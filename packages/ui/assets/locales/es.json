@@ -1,0 +1,56 @@
+{
+	"comun": {
+		"formatoFecha": "DD/MM/YYYY"
+	},
+	"arbol-relacionados": {
+		"expedienteSinPermiso": "Expediente sin permiso - ",
+		"expedienteSeleccionado": "Expediente seleccionado - "
+	},
+	"aviso": {
+		"cerrarAviso": "Cerrar aviso"
+	},
+	"base": {
+		"input": {
+			"ariaLabel": "Campo de texto"
+		}
+	},
+	"button": {
+		"ariaLabel": "Botón",
+		"ariaLabelBotonOpciones": "Boton con opciones",
+		"ariaLabelOpcionBoton": "Opcion de boton"
+	},
+	"campoProcedimiento": {
+		"numeroProcedimiento": "Número de procedimiento",
+		"anoProcedimiento": "Año de procedimiento",
+		"piezaProcedimiento": "Pieza"
+	},
+	"select": {
+		"ariaLabel": "Selector",
+		"ariaLabelBuscar": "Buscar"
+	},
+	"textArea": {
+		"ariaLabel": "Área de texto"
+	},
+	"icono": {
+		"ariaLabel": "Icono"
+	},
+	"listado-paginado": {
+		"pagina": "Página",
+		"de": "de {0}",
+		"irAPagina": "Ir a la página",
+		"primeraPagina": "Ir a primera página",
+		"paginaAnterior": "Ir a página anterior",
+		"paginaSiguiente": "Ir a página siguiente",
+		"ultimaPagina": "Ir a última página"
+	},
+	"listado-scroll": {
+		"ordenar": "Ordenar",
+		"filtrar": "Filtrar"
+	},
+	"modal": {
+		"cerrarModal": "Cerrar modal"
+	},
+	"sidebar": {
+		"expandir": "Expandir"
+	}
+}

@@ -26,3 +26,50 @@ El repositorio emplea las siguientes herramientas:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
+### Componentes
+
+Los componentes a emplear en la formacion son los siguientes, indicando su estado, el cual se modificará a lo largo de la formación.
+
+- Header
+  - Componente ✅
+  - Estilos -> Ejemplo para sustituir por modules
+  - Accesibilidad ✅
+  - Test ✅
+  - Storybook ✅
+  - i18n ✅
+- Barra Herramientas
+  - Componente ✅
+  - Estilos
+  - Accesibilidad ✅
+  - Test
+  - Storybook ✅
+  - i18n
+- Label
+  - Componente ✅
+  - Estilos
+  - Accesibilidad ✅
+  - Test ✅
+  - Storybook ✅
+  - i18n
+- Input
+  - Componente
+  - Estilos
+  - Accesibilidad
+  - Test
+  - Storybook
+  - i18n
+- Campo procedimiento
+  - Componente
+  - Estilos
+  - Accesibilidad
+  - Test
+  - Storybook
+  - i18n
+- Botón
+  - Componente ✅
+  - Estilos ->
+  - Accesibilidad ✅
+  - Test
+  - Storybook ✅
+  - i18n

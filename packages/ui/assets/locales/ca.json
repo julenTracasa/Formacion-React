@@ -1,0 +1,56 @@
+{
+	"comun": {
+		"formatoFecha": "DD/MM/YYYY"
+	},
+	"arbol-relacionados": {
+		"expedienteSinPermiso": "Expedient sense permís - ",
+		"expedienteSeleccionado": "Expedient seleccionat - "
+	},
+	"aviso": {
+		"cerrarAviso": "Tancar avís"
+	},
+	"base": {
+		"input": {
+			"ariaLabel": "Camp de text"
+		}
+	},
+	"button": {
+		"ariaLabel": "Botó",
+		"ariaLabelBotonOpciones": "Botó amb opcions",
+		"ariaLabelOpcionBoton": "Opció de botó"
+	},
+	"campoProcedimiento": {
+		"numeroProcedimiento": "Número de procediment",
+		"anoProcedimiento": "Any de procediment",
+		"piezaProcedimiento": "Peça"
+	},
+	"select": {
+		"ariaLabel": "Selector",
+		"ariaLabelBuscar": "Buscar"
+	},
+	"textArea": {
+		"ariaLabel": "Àrea de text"
+	},
+	"icono": {
+		"ariaLabel": "Icona"
+	},
+	"listado-paginado": {
+		"pagina": "Pàgina",
+		"de": "de {0}",
+		"irAPagina": "Anar a la pàgina",
+		"primeraPagina": "Anar a primera pàgina",
+		"paginaAnterior": "Anar a pàgina anterior",
+		"paginaSiguiente": "Anar a pàgina següent",
+		"ultimaPagina": "Anar a última pàgina"
+	},
+	"listado-scroll": {
+		"ordenar": "Ordenar",
+		"filtrar": "Filtrar"
+	},
+	"modal": {
+		"cerrarModal": "Tancar modal"
+	},
+	"sidebar": {
+		"expandir": "Expandir"
+	}
+}

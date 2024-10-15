@@ -2,6 +2,7 @@ import "./button.css";
 import type { ButtonHTMLAttributes } from "react";
 import React, { forwardRef } from "react";
 import classNames from "classnames";
+import useComponentsTranslation from "../../../hooks/use-translation";
 
 export type ButtonProps = BaseButtonProps;
 
@@ -22,19 +23,21 @@ export const Button = forwardRef<
 ) {
   const buttonClasses = classNames(
     "button",
-    `button--${variant}`,
+    `button---${variant}`,
     `button--size--${size}`,
     disabled ? `button--${variant}-disabled button--disabled` : "",
     `button--wordSize--${wordSize}`,
     props.className
   );
+  if (ref) {
+    confirm();
+  }
 
   return (
     <BaseButton
       {...props}
       className={buttonClasses}
-      disabled={disabled}
-      ref={ref}
+      // disabled={disabled}
       type={type}
       variant={variant}
     >
@@ -58,11 +61,10 @@ const BaseButton = forwardRef<
   { children, disabled = false, type = "button", textoAccesibilidad, ...props },
   ref
 ) {
-  // const { t } = useComponentsTranslation();
-  console.log(textoAccesibilidad);
+  const { t } = useComponentsTranslation();
   return (
     <button
-      // aria-label={textoAccesibilidad ?? t("button.ariaLabel")}
+      aria-label={textoAccesibilidad ?? t("button.ariaLabel")}
       disabled={disabled}
       ref={ref}
       type={type}

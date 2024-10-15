@@ -1,0 +1,56 @@
+{
+	"comun": {
+		"formatoFecha": "YYYY/MM/DD"
+	},
+	"arbol-relacionados": {
+		"expedienteSinPermiso": "Baimenik gabeko espedientea - ",
+		"expedienteSeleccionado": "Aukeratutako espedientea - "
+	},
+	"aviso": {
+		"cerrarAviso": "Itxi abisua"
+	},
+	"base": {
+		"input": {
+			"ariaLabel": "Testu-eremua"
+		}
+	},
+	"button": {
+		"ariaLabel": "Botoia",
+		"ariaLabelBotonOpciones": "Aukerak dituen botoia",
+		"ariaLabelOpcionBoton": "Botoi-aukera"
+	},
+	"campoProcedimiento": {
+		"numeroProcedimiento": "Prozedura-zenbakia",
+		"anoProcedimiento": "Prozeduraren urtea",
+		"piezaProcedimiento": "Pieza"
+	},
+	"select": {
+		"ariaLabel": "Hautagailua",
+		"ariaLabelBuscar": "Bilatu"
+	},
+	"textArea": {
+		"ariaLabel": "Testu-eremua"
+	},
+	"icono": {
+		"ariaLabel": "Ikonoa"
+	},
+	"listado-paginado": {
+		"pagina": "Orrialde",
+		"de": "{0}tik",
+		"irAPagina": "Orrialdera joan",
+		"primeraPagina": "Joan lehen orrira",
+		"paginaAnterior": "Joan aurreko orrira",
+		"paginaSiguiente": "Joan hurrengo orrira",
+		"ultimaPagina": "Joan azken orrira"
+	},
+	"listado-scroll": {
+		"ordenar": "Ordenatu",
+		"filtrar": "Iragazi"
+	},
+	"modal": {
+		"cerrarModal": "Modala itxi"
+	},
+	"sidebar": {
+		"expandir": "Hedatu"
+	}
+}
