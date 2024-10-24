@@ -4,7 +4,7 @@ Este repositorio se ha creado para la formación de desarrollo en React del depa
 
 ## Como descargar
 
-Se puede descargar mediante SSH, HTTPSo bien abrir en Visual Studio Code desde el botón <> Code
+Se puede descargar mediante SSH, HTTPS o bien abrir en Visual Studio Code desde el botón <> Code
 
 ## ¿Qué incluye este repositorio?
 
